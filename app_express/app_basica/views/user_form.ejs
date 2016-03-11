@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+	<header>
+		<h1>Form to learn node</h1>
+	</header>
+	<% users.forEach(function(user){
+	%>
+		Nombre: <%= user.name %>
+		Edad: <%= user.age %>
+	<%
+	}) %>
+</body>
+</html>
